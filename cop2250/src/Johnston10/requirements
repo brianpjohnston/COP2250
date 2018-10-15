@@ -1,0 +1,42 @@
+Exercise 2
+Three files are required as below.
+Design and save your Motor class before you make Vehicle, so you can specify Motor as a Vehicle data attribute.
+
+Class Motor
+Attributes (all private)
+
+int cylinders
+int hp
+String type (values gas, deisel, electric etc)
+Methods (public)
+
+a constructor that can assign values to all attributes
+getters for each attribute (setters not needed)
+a toString method that returns the status of a Motor instance, all attributes.
+Class Vehicle
+Attributes (all private)
+
+String make
+String model
+int year
+double price
+Motor motor (see below)
+Methods (public)
+
+a constructor that can assign values to all attributes
+a setter for the price
+a getter for the price
+a toString method that returns the status of a Vehicle instance, all attributes.
+Class TestVehicle
+This is the executable class. Use only main.
+In the main method, make two or three Vehicle instances, then display their status.
+
+SAMPLE OUTPUT (yours can vary but should show all attribute values)
+
+2015 Tesla Model S P85D, price=105000.0
+Motor: cylinders=0, hp=503, type=Electric
+
+2015 Dodge Challenger Hellcat, price=62000.0
+Motor: cylinders=8, hp=707, type=Gas
+
+Recheck the requirements before you submit.

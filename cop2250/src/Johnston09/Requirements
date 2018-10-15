@@ -1,0 +1,46 @@
+ssignment Requirements
+
+Create a new Java Project in named as before, smith9 or jones9 for example.
+Create a package with the very same name as your project name.
+In this one package, write one Java program for each exercise as required below.
+Adhere to naming conventions for variables and classes as in section 2.8.
+Choose descriptive variable names and identifiers in all programs.
+Start each program with your name and SPC ID# in a comment.
+Add a few more comments in each program to explain what your code is doing.
+When all programs are done, locate your project folder in your workspace.
+Right-click on the project folder folder (don't open it!) and select "Send to" --> "Compressed (zipped) folder". This will make a zip with the same name as your project.
+Upload the zip to this drop box. Type your collaboration statement into the message area.
+Submit your assignment.
+Two files are required, a data class named Person and an executable class named TestPerson.
+
+Class Person
+
+has instance data members (all private) String fullName, char gender, int age.
+has a public static int variable named numFriends with an initial value of zero.
+has a constructor that will be used to make a Person object and assign values to its data members. It should also increment numFriends.
+has getters and setters for all three instance data members.
+has a toString() method that returns a string displaying the state of a Person instance (all attributes).
+Class TestPerson
+This class needs a main method and two more methods. In main, create three Person instances and display their status. Then call the void changeName method (see below) to change the name of one of the Person objects. Next, create an array of Person objects that holds the three instances created earlier. Then, call the agePersons method with this array and an integer as arguments. The agePersons method is described below. It returns an array with all Person objects aged by the value of the yrs argument. Use a loop to process and display the status of the elements in the array returned by agePersons. Finally, display the value of the static numFriends attribute.
+
+public static void changeName(Person p) {
+
+this method should be used to change the name of the Person passed to it as an argument. See sample output.
+public static Person[ ] agePersons(Person[ ] ara, int yrs) {
+
+ this method takes a Person array and an integer (for years) as arguments, and adds that many years to the age of every Person in the array. The modified array is then returned.
+SAMPLE OUTPUT
+
+Three people at first
+Person fullName=Otto Mattik, gender=M, age=22
+Person fullName=Anna Bollick, gender=F, age=19
+Person fullName=Dick Tator, gender=M, age=33
+
+Three persons after 5 years
+Person fullName=Otto Mattik, gender=M, age=27
+Person fullName=Anna Bollick-Mattik, gender=F, age=24
+Person fullName=Dick Tator, gender=M, age=38
+
+We created 3 Person objects.
+
+Recheck the requirements before you submit.

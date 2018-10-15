@@ -1,0 +1,39 @@
+Create a new Java Project in your Eclipse workspace named as before, smith12 or jones12 for example.
+Create a package with the very same name as your project name.
+In this one package, write one Java program for each exercise as required below.
+Adhere to naming conventions for variables and classes as in section 2.8.
+Choose descriptive variable names and identifiers in all programs.
+Start each program with your name and SPC ID# in a comment.
+Add a few more comments in each program to explain what your code is doing.
+When all programs are done, locate your project folder in your workspace.
+Right-click on the project folder folder (don't open it!) and select "Send to" --> "Compressed (zipped) folder". This will make a zip with the same name as your project.
+Upload the zip to this drop box. Type your collaboration statement into the message area of the drop box.
+Submit your assignment.
+Chapter 12 Programming Exercises: 12.3 and 12.5.
+
+Exercise 1
+Create a Java program with a method that searches an integer array for a specified integer value. If the array contains
+ the specified integer, the method should return its index in the array. If not, the method should throw an Exception
+ stating "Element not found in array" and end gracefully. Test the method in main.
+
+Exercise 2
+Write a program that generates 10 random doubles, all between 1 and 11, and writes them to a text file, one number per line. Then write another program that reads the text file and displays all the doubles and their sum accurate to decimal places.
+SAMPLE OUTPUT
+
+10.6269119604172
+2.737790338909455
+5.427925738865128
+1.3742058065472509
+1.1858700262498836
+4.180391276485228
+4.910969998930675
+5.710858234343958
+7.790857007373052
+3.1806714736219543
+
+The total is 47.13
+
+Done? Check the requirements again!
+
+
+Attachments

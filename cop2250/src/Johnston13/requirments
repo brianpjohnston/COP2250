@@ -1,0 +1,68 @@
+ssignment Requirements
+
+Create a new Java Project in your Eclipse workspace named as before, smith13 or jones13 for example.
+Create a package with the very same name as your project name.
+In this one package, write one Java program for each exercise as required below.
+Adhere to naming conventions for variables and classes as in section 2.8.
+Choose descriptive variable names and identifiers in all programs.
+Start each program with your name and SPC ID# in a comment.
+Add a few more comments in each program to explain what your code is doing.
+When all programs are done, locate your project folder in your workspace.
+Right-click on the project folder folder (don't open it!) and select "Send to" --> "Compressed (zipped) folder". This will make a zip with the same name as your project.
+Upload the zip to this drop box. Type your collaboration statement into the message area of the drop box.
+Submit your assignment.
+This assignment requires four files, three data files and one executable file.
+
+Class Furniture
+
+
+implements Comparable<Furniture>
+has private data members String item and double price
+has a parameterized constructor
+has a getPrice() method
+has a toString() method
+has a compareTo() method that can be used to sort Furniture by price.
+has an abstract method with this signature:  public abstract String returnPurpose();
+Class Seating
+
+
+this is a concrete class that inherits from class Furniture
+has a private int data member for seating capacity
+has a parameterized constructor
+has a toString() method
+implements the returnPurpose() method
+implements Comparable with a compareTo() method that can sort by price
+Class Storage
+
+
+this is a concrete class that inherits from class Furniture
+has a private String data member to hold what is stored
+has a private boolean data member to indicate if a storage object is electrically powered
+has a parameterized constructor
+has a toString() method
+implements the returnPurpose() method
+implements Comparable with a compareTo() method that can sort by price
+Class TestFurniture (all code in main method)
+
+
+create about six objects, some Storage and some Seating. See Sample Output.
+make a Furniture[ ] array using the "array initializer" to hold all of these objects.
+use a loop to process the array and verify proper object creation.
+sort the array using Arrays.sort().
+repeat the loop to display the objects again, now ordered by price.
+SAMPLE OUTPUT
+
+Before ordering by price
+Furniture item: recliner, price $1200.0, seating capacity: 1. Used for sitting
+Furniture item: refrigerator, price $1400.0. Powered: true. Used to store food
+Furniture item: love seat, price $850.0, seating capacity: 2. Used for sitting
+Furniture item: dresser, price $650.0. Powered: false. Used to store clothing
+Furniture item: sofa, price $3000.0, seating capacity: 3. Used for sitting
+Furniture item: stool, price $140.0, seating capacity: 1. Used for sitting
+After ordering by price
+Furniture item: stool, price $140.0, seating capacity: 1. Used for sitting
+Furniture item: dresser, price $650.0. Powered: false. Used to store clothing
+Furniture item: love seat, price $850.0, seating capacity: 2. Used for sitting
+Furniture item: recliner, price $1200.0, seating capacity: 1. Used for sitting
+Furniture item: refrigerator, price $1400.0. Powered: true. Used to store food
+Furniture item: sofa, price $3000.0, seating capacity: 3. Used for sitting
